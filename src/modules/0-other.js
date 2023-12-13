@@ -1,3 +1,4 @@
+export default function OneOther(){
 console.log("===========input: AAAABBBCDDDA; output: 4A3B1C3D1A========");
 const bai0 = () => {
     let str = 'AAAABBBCDDDA'
@@ -16,3 +17,4 @@ const bai0 = () => {
 // bai0()
 
 console.log("===========END========");
+}
