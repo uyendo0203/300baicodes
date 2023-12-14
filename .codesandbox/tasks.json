@@ -1,0 +1,68 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "clean-nm": {
+      "name": "clean-nm",
+      "command": "npm run clean-nm",
+      "runAtStart": false
+    },
+    "clean-build": {
+      "name": "clean-build",
+      "command": "npm run clean-build",
+      "runAtStart": false
+    },
+    "clean-dist": {
+      "name": "clean-dist",
+      "command": "npm run clean-dist",
+      "runAtStart": false
+    },
+    "bundle": {
+      "name": "bundle",
+      "command": "npm run bundle",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "watch": {
+      "name": "watch",
+      "command": "npm run watch",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "production": {
+      "name": "production",
+      "command": "npm run production",
+      "runAtStart": false
+    },
+    "lint:sass": {
+      "name": "lint:sass",
+      "command": "npm run lint:sass",
+      "runAtStart": false
+    },
+    "lint:js": {
+      "name": "lint:js",
+      "command": "npm run lint:js",
+      "runAtStart": false
+    },
+    "stats": {
+      "name": "stats",
+      "command": "npm run stats",
+      "runAtStart": false
+    }
+  }
+}
