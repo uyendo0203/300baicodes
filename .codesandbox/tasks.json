@@ -11,33 +11,27 @@
   "tasks": {
     "clean-nm": {
       "name": "clean-nm",
-      "command": "npm run clean-nm",
-      "runAtStart": false
+      "command": "npm run clean-nm"
     },
     "clean-build": {
       "name": "clean-build",
-      "command": "npm run clean-build",
-      "runAtStart": false
+      "command": "npm run clean-build"
     },
     "clean-dist": {
       "name": "clean-dist",
-      "command": "npm run clean-dist",
-      "runAtStart": false
+      "command": "npm run clean-dist"
     },
     "bundle": {
       "name": "bundle",
-      "command": "npm run bundle",
-      "runAtStart": false
+      "command": "npm run bundle"
     },
     "build": {
       "name": "build",
-      "command": "npm run build",
-      "runAtStart": false
+      "command": "npm run build"
     },
     "watch": {
       "name": "watch",
-      "command": "npm run watch",
-      "runAtStart": false
+      "command": "npm run watch"
     },
     "dev": {
       "name": "dev",
@@ -46,23 +40,23 @@
     },
     "production": {
       "name": "production",
-      "command": "npm run production",
-      "runAtStart": false
+      "command": "npm run production"
     },
     "lint:sass": {
       "name": "lint:sass",
-      "command": "npm run lint:sass",
-      "runAtStart": false
+      "command": "npm run lint:sass"
     },
     "lint:js": {
       "name": "lint:js",
-      "command": "npm run lint:js",
-      "runAtStart": false
+      "command": "npm run lint:js"
     },
     "stats": {
       "name": "stats",
-      "command": "npm run stats",
-      "runAtStart": false
+      "command": "npm run stats"
+    },
+    "CSB_RUN_OUTSIDE_CONTAINER=1 devcontainer templates apply --template-id \"ghcr.io/devcontainers/templates/javascript-node\" --template-args '{}' --features '[]'": {
+      "name": "Environment setup",
+      "command": "CSB_RUN_OUTSIDE_CONTAINER=1 devcontainer templates apply --template-id \"ghcr.io/devcontainers/templates/javascript-node\" --template-args '{}' --features '[]'"
     }
   }
 }
