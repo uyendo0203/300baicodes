@@ -12,6 +12,8 @@ import ValidPalindrome from '../modules/6-valid-palindrome';
 import InvertBinaryTree from '../modules/7-invert-binary-tree';
 import ValidAnagram from '../modules/8-valid-anagram';
 import BinarySearch from '../modules/9-binary-search';
+import FloodFill from '../modules/10-flood-fill';
+import MaximumSubarray from '../modules/11-maximum-subarray';
 
 // OneOther()
 // TwoSum()
@@ -21,4 +23,6 @@ import BinarySearch from '../modules/9-binary-search';
 // ValidPalindrome()
 // InvertBinaryTree()
 // ValidAnagram()
-BinarySearch()
+// BinarySearch()
+// FloodFill()
+MaximumSubarray()
